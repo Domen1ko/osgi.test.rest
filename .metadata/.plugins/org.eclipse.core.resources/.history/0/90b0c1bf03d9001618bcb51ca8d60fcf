@@ -1,0 +1,43 @@
+/**
+ * 
+ */
+package qinetic.business.rest.api.internal.service;
+
+import qinetic.business.rest.api.services.IBackEndRS;
+import qinetic.business.rest.api.services.dto.RequestDTO;
+import qinetic.business.rest.api.services.dto.ResponseDTO;
+
+/**
+ * @author Domeniko
+ *
+ */
+public class BackEndRS implements IBackEndRS {
+
+	/* (non-Javadoc)
+	 * @see qinetic.business.rest.api.services.IBackEndRS#performCall(java.lang.String)
+	 */
+	@Override
+	public String performCall(String key) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/* (non-Javadoc)
+	 * @see qinetic.business.rest.api.services.IBackEndRS#performCall(qinetic.business.rest.api.services.dto.RequestDTO)
+	 */
+	@Override
+	public String performCall(RequestDTO model) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/* (non-Javadoc)
+	 * @see qinetic.business.rest.api.services.IBackEndRS#read(java.lang.String)
+	 */
+	@Override
+	public ResponseDTO read(String key) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

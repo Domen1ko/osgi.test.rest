@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package qinetic.business.rest.api.internal.trasformer;
+
+import qinetic.business.rest.api.services.dto.RequestDTO;
+import qinetic.integration.models.RequestModel;
+
+/**
+ * @author Domeniko
+ *
+ */
+public class Trasformer {
+	
+	public static RequestModel trasformDto(RequestDTO dto){
+		RequestModel model = new RequestModel();
+		model.setKey(dto.getKey());
+		model.setPayLoad(dto.getPayLoad());
+		return model;
+	}
+
+}

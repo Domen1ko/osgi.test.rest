@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.eclipsesource.jaxrs.provider.gson.feature"
+      label="Gson Provider"
+      version="2.3.0.201602281253"
+      provider-name="EclipseSource">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <includes
+         id="com.eclipsesource.jaxrs.jersey.runtime.feature"
+         version="2.22.1.201602281253"/>
+
+   <plugin
+         id="com.eclipsesource.jaxrs.provider.gson"
+         download-size="5"
+         install-size="8"
+         version="2.3.0.201602281253"
+         unpack="false"/>
+
+   <plugin
+         id="com.google.gson"
+         download-size="227"
+         install-size="439"
+         version="2.5.0"
+         unpack="false"/>
+
+</feature>

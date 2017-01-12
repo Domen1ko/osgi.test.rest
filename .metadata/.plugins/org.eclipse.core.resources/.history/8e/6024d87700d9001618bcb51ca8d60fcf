@@ -1,0 +1,2 @@
+custom=true
+bin.includes = OSGI-INF/qinetic.integration.service.provider.BackEndServiceImpl.xml

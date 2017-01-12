@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="com.eclipsesource.jaxrs.connector.feature.source" version="5.3.1.201602281253" label="OSGi - JAX-RS Connector Developer Resources" provider-name="EclipseSource">
+  <includes id="com.eclipsesource.jaxrs.connector.feature" version="5.3.1.201602281253"/>
+  <description>
+      %description
+   </description>
+  <copyright>
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <plugin id="com.eclipsesource.jaxrs.publisher.source" version="5.3.1.201602281253" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="com.eclipsesource.jaxrs.consumer.source" version="5.3.1.201602281253" download-size="0" install-size="0" unpack="false"/>
+  <includes id="com.eclipsesource.jaxrs.jersey.runtime.feature.source" version="2.22.1.201602281253"/>
+</feature>

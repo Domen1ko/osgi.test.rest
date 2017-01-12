@@ -1,0 +1,32 @@
+/**
+ * 
+ */
+package qinetic.business.rest.api.services;
+
+import javax.ws.rs.ApplicationPath;
+import javax.ws.rs.GET;
+import javax.ws.rs.POST;
+import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
+import javax.ws.rs.Produces;
+
+import qinetic.integration.models.RequestModel;
+
+/**
+ * @author Domeniko
+ *
+ */
+@ApplicationPath("/rest")
+@Path("/api")
+public interface BackEndRS {
+
+	@GET
+	@Produces("text/plain")
+	@Path("/:key")
+	public String performCall(@PathParam(value = "key") String key);
+	
+	@POST
+	@Produces("text/plain")
+	@Path("/:key")
+	public String performCall(RequestModel model);
+}

@@ -1,0 +1,15 @@
+/**
+ * 
+ */
+package qinetic.integration.models;
+
+/**
+ * 	Basic Response Model
+ * @author Domeniko
+ *
+ */
+public class ResponseModel {
+	
+	
+
+}

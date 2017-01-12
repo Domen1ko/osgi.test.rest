@@ -1,0 +1,35 @@
+/**
+ * 
+ */
+package qinetic.integration.service.provider;
+
+import qinetic.integration.models.RequestModel;
+import qinetic.integration.models.ResponseModel;
+import qinetic.integration.service.IBackEndService;
+
+/**
+ * 	 Implementation of service present in bundle qinetic.integration.service
+ * @author Domeniko
+ *
+ */
+public class BackEndServiceImpl implements IBackEndService{
+
+	@Override
+	public ResponseModel performCall(RequestModel model) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public ResponseModel retriveData(RequestModel model) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public ResponseModel writeData(RequestModel model) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

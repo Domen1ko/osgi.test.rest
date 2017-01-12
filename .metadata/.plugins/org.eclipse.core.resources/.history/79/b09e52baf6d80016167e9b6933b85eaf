@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package qinetic.integration.service;
+
+/**
+ * @author Domeniko
+ *
+ */
+public interface IBackEndService {
+
+}

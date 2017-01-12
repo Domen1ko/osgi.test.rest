@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package qinetic.integration.models;
+
+/**
+ * @author Domeniko
+ *
+ */
+public class RequesModel {
+
+}

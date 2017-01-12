@@ -1,0 +1,10 @@
+Application-Name: qinetic.app
+Application-SymbolicName: qinetic.app
+Application-ManifestVersion: 1.0
+Application-Version: 1.0.0.qualifier
+Manifest-Version: 1.0
+Application-Content: qinetic.integration.service;version=1.0.0,
+ qinetic.integration.service.provider;version=1.0.0,
+ qinetic.business.rest.api;version=1.0.0,
+ com.eclipsesource.jaxrs.swagger-all;version=1.5.7
+

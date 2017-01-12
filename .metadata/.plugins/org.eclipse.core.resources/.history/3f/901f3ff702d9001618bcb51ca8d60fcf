@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package qinetic.business.rest.api.services.dto;
+
+import java.io.Serializable;
+
+/**
+ * @author Domeniko
+ *
+ */
+public class ResponseDTO implements Serializable {
+	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private String esito;
+	private String message;
+	private String payLoad;
+
+}

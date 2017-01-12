@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: qinetic.integration.service.provider
+Bundle-SymbolicName: qinetic.integration.service.provider
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: org.osgi.service.component.annotations;version="1.2.0",
+ qinetic.integration.models,
+ qinetic.integration.service
+Bundle-Blueprint: OSGI-INF/blueprint/*.xml
+Service-Component: OSGI-INF/qinetic.integration.service.provider.BackEndServiceImpl.xml
+Bundle-ActivationPolicy: lazy
+

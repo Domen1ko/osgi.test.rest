@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package qinetic.integration.service.provider;
+
+/**
+ * @author Domeniko
+ *
+ */
+public class BackEndServiceImpl {
+
+}

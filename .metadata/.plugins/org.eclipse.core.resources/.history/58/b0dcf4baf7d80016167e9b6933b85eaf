@@ -1,0 +1,32 @@
+/**
+ * 
+ */
+package qinetic.integration.service;
+
+import qinetic.integration.models.RequestModel;
+import qinetic.integration.models.ResponseModel;
+
+/**
+ * 	 This Interface is puplic api
+ * @author Domeniko
+ *
+ */
+public interface IBackEndService {
+	
+	/**
+	 *  Example of perform call
+	 * @param model
+	 * @return
+	 */
+	public ResponseModel performCall(RequestModel model);
+	
+	/**
+	 *  Example of retriee data
+	 * @param model
+	 * @return
+	 */
+	public ResponseModel retriveData(RequestModel model);
+	
+	public ResponseModel writeData(RequestModel model);
+
+}

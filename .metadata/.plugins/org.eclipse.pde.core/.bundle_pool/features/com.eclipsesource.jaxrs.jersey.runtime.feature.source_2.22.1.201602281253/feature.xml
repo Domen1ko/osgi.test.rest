@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="com.eclipsesource.jaxrs.jersey.runtime.feature.source" version="2.22.1.201602281253" label="Jersey Runtime Developer Resources" provider-name="EclipseSource">
+  <includes id="com.eclipsesource.jaxrs.jersey.runtime.feature" version="2.22.1.201602281253"/>
+  <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+  <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+  <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+  <plugin id="javax.servlet-api.source" version="3.0.1" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="com.eclipsesource.jaxrs.jersey-all.source" version="2.22.2" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="com.eclipsesource.jaxrs.jersey-min.source" version="2.22.2" download-size="0" install-size="0" unpack="false"/>
+</feature>

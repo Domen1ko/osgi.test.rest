@@ -1,0 +1,38 @@
+/**
+ * 
+ */
+package qinetic.business.rest.api.services;
+
+import javax.ws.rs.ApplicationPath;
+import javax.ws.rs.GET;
+import javax.ws.rs.POST;
+import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
+import javax.ws.rs.Produces;
+
+import qinetic.business.rest.api.services.dto.RequestDTO;
+import qinetic.business.rest.api.services.dto.ResponseDTO;
+
+/**
+ * @author Domeniko
+ *
+ */
+@ApplicationPath("/rest")
+@Path("/api")
+public interface IBackEndRS {
+
+	@GET
+	@Produces("text/plain")
+	@Path("/:key")
+	public String performCall(@PathParam(value = "key") String key);
+	
+	@POST
+	@Produces("text/plain")
+	@Path("/:key")
+	public String performCall(RequestDTO model);
+	
+	@GET
+	@Produces("application/json")
+	@Path("/read/:key")
+	public ResponseDTO read(@PathParam(value = "key") String key);
+}

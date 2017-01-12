@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package qinetic.business.rest.api.services;
+
+/**
+ * @author Domeniko
+ *
+ */
+public interface BackEndRS {
+
+}

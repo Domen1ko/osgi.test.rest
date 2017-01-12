@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package qinetic.business.rest.api.services;
+
+import javax.ws.rs.ApplicationPath;
+import javax.ws.rs.Path;
+
+import org.osgi.service.component.annotations.Reference;
+
+import qinetic.integration.service.IBackEndService;
+
+/**
+ * @author Domeniko
+ *
+ */
+@ApplicationPath("/rest")
+@Path("/api")
+public interface BackEndRS {
+
+	
+}

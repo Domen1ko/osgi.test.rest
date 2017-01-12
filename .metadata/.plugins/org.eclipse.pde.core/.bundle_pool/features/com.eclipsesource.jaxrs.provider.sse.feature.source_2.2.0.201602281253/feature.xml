@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="com.eclipsesource.jaxrs.provider.sse.feature.source" version="2.2.0.201602281253" label="Sse Provider Developer Resources" provider-name="EclipseSource">
+  <includes id="com.eclipsesource.jaxrs.provider.sse.feature" version="2.2.0.201602281253"/>
+  <description>
+      %description
+   </description>
+  <copyright>
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <plugin id="com.eclipsesource.jaxrs.provider.sse.source" version="2.2.0.201602281253" download-size="0" install-size="0" unpack="false"/>
+</feature>

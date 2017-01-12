@@ -1,0 +1,17 @@
+/**
+ * 
+ */
+package qinetic.business.rest.api.services;
+
+import javax.ws.rs.ApplicationPath;
+import javax.ws.rs.Path;
+
+/**
+ * @author Domeniko
+ *
+ */
+@ApplicationPath("/rest")
+@Path("")
+public interface BackEndRS {
+
+}

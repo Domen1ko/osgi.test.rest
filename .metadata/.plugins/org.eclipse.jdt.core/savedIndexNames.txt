@@ -1,0 +1,7 @@
+INDEX VERSION 1.129+C:\Users\Domeniko\Repository\JAVA\OSGI\osgi.test.rest\.metadata\.plugins\org.eclipse.jdt.core
+2442162571.index
+3872677164.index
+2798539672.index
+3325833377.index
+3903996975.index
+1674476701.index

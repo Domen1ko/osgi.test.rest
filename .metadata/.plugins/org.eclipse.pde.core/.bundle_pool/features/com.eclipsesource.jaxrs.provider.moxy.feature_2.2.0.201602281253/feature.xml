@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.eclipsesource.jaxrs.provider.moxy.feature"
+      label="JAX-RS MOXy Provider"
+      version="2.2.0.201602281253"
+      provider-name="EclipseSource">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <includes
+         id="com.eclipsesource.jaxrs.jersey.runtime.feature"
+         version="2.22.1.201602281253"/>
+
+   <requires>
+      <import plugin="org.eclipse.osgi"/>
+      <import plugin="org.eclipse.persistence.core" version="2.5.0" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.persistence.antlr"
+         download-size="185"
+         install-size="395"
+         version="3.2.0.v201302191141"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.persistence.core"
+         download-size="4860"
+         install-size="12701"
+         version="2.5.0.v20130507-3faac2b"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.persistence.moxy"
+         download-size="476"
+         install-size="1186"
+         version="2.5.0.v20130507-3faac2b"
+         unpack="false"/>
+
+   <plugin
+         id="com.eclipsesource.jaxrs.provider.moxy"
+         download-size="4"
+         install-size="3"
+         version="2.2.0.201602281253"
+         unpack="false"/>
+
+</feature>

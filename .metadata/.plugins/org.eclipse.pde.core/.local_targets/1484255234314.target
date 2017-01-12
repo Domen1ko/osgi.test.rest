@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde version="3.8"?><target name="Equinox + JAX-RS" sequenceNumber="15">
+<locations>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.equinox.sdk.feature.group" version="3.9.0.v20140221-1852"/>
+<repository location="http://download.eclipse.org/eclipse/updates/4.3"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
+<unit id="com.eclipsesource.jaxrs.provider.swagger.feature.feature.group" version="1.1.1.201602281253"/>
+<unit id="com.eclipsesource.jaxrs.provider.sse.feature.source.feature.group" version="2.2.0.201602281253"/>
+<unit id="com.eclipsesource.jaxrs.provider.swagger.feature.source.feature.group" version="1.1.1.201602281253"/>
+<unit id="com.eclipsesource.jaxrs.provider.sse.feature.feature.group" version="2.2.0.201602281253"/>
+<unit id="com.eclipsesource.jaxrs.provider.gson.feature.source.feature.group" version="2.3.0.201602281253"/>
+<unit id="com.eclipsesource.jaxrs.provider.security.feature.source.feature.group" version="2.2.0.201602281253"/>
+<unit id="com.eclipsesource.jaxrs.connector.feature.source.feature.group" version="5.3.1.201602281253"/>
+<unit id="com.eclipsesource.jaxrs.connector.feature.feature.group" version="5.3.1.201602281253"/>
+<unit id="com.eclipsesource.jaxrs.provider.moxy.feature.feature.group" version="2.2.0.201602281253"/>
+<unit id="com.eclipsesource.jaxrs.provider.multipart.feature.source.feature.group" version="2.2.0.201602281253"/>
+<unit id="com.eclipsesource.jaxrs.provider.gson.feature.feature.group" version="2.3.0.201602281253"/>
+<unit id="com.eclipsesource.jaxrs.provider.multipart.feature.feature.group" version="2.2.0.201602281253"/>
+<unit id="com.eclipsesource.jaxrs.provider.security.feature.feature.group" version="2.2.0.201602281253"/>
+<unit id="com.eclipsesource.jaxrs.provider.moxy.feature.source.feature.group" version="2.2.0.201602281253"/>
+<repository location="http://hstaudacher.github.io/osgi-jax-rs-connector"/>
+</location>
+</locations>
+<environment>
+<os>win32</os>
+<ws>win32</ws>
+<arch>x86_64</arch>
+<nl>it_IT</nl>
+</environment>
+<launcherArgs>
+<vmArgs>-Dosgi.requiredJavaVersion=1.8 -XX:+UseG1GC -XX:+UseStringDeduplication -Dosgi.requiredJavaVersion=1.8 -Xms256m -Xmx1024m -Declipse.p2.max.threads=10 -Doomph.update.url=http://download.eclipse.org/oomph/updates/milestone/latest -Doomph.redirection.index.redirection=index:/-&gt;http://git.eclipse.org/c/oomph/org.eclipse.oomph.git/plain/setups/</vmArgs>
+</launcherArgs>
+</target>
