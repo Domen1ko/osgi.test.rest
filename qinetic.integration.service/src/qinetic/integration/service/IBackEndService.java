@@ -3,6 +3,11 @@
  */
 package qinetic.integration.service;
 
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+
 import qinetic.integration.models.RequestModel;
 import qinetic.integration.models.ResponseModel;
 
@@ -11,6 +16,7 @@ import qinetic.integration.models.ResponseModel;
  * @author Domeniko
  *
  */
+@Path("/api")
 public interface IBackEndService {
 	
 	/**
@@ -33,5 +39,12 @@ public interface IBackEndService {
 	 * @return
 	 */
 	public ResponseModel writeData(RequestModel model);
+	
+	
+	@GET
+	@Path("/test")
+	@Produces(MediaType.TEXT_PLAIN)
+	public String test();
+	
 
 }

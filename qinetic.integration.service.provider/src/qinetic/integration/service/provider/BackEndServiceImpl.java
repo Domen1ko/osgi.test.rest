@@ -3,10 +3,6 @@
  */
 package qinetic.integration.service.provider;
 
-import org.osgi.framework.BundleContext;
-import org.osgi.service.component.annotations.Activate;
-import org.osgi.service.component.annotations.Component;
-
 import qinetic.integration.models.RequestModel;
 import qinetic.integration.models.ResponseModel;
 import qinetic.integration.service.IBackEndService;
@@ -16,16 +12,8 @@ import qinetic.integration.service.IBackEndService;
  * @author Domeniko
  *
  */
-@Component(immediate=true, service=IBackEndService.class, name="provider.backend")
 public class BackEndServiceImpl implements IBackEndService{
 	
-	@Activate
-	private void doSometingWhenActivate(BundleContext context){
-		/*
-		 * Placing here some stuff when bundle will be activate stuffs are done
-		 */
-		System.out.println("Im active");
-	}
 
 	@Override
 	public ResponseModel performCall(RequestModel model) {
@@ -65,6 +53,11 @@ public class BackEndServiceImpl implements IBackEndService{
 			response.setMessage("UnSuccessfull call at write data. Maybe missing mandatory parameter? Actual version 0.1");
 		}
 		return response;
+	}
+
+	@Override
+	public String test() {
+		return "successs";
 	}
 
 }

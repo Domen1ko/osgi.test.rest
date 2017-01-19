@@ -6,8 +6,6 @@ package qinetic.business.rest.api.internal.service;
 import javax.naming.InitialContext;
 import javax.ws.rs.Path;
 
-import org.osgi.service.component.annotations.Reference;
-
 import qinetic.business.rest.api.internal.trasformer.Trasformer;
 import qinetic.business.rest.api.services.IBackEndRS;
 import qinetic.business.rest.api.services.dto.RequestDTO;
@@ -24,11 +22,6 @@ public class BackEndRS implements IBackEndRS {
 	
 	
 	private IBackEndService service;
-	
-	@Reference
-	private void setbackEndService(IBackEndService service){
-		this.service = service;
-	}
 
 	/* (non-Javadoc)
 	 * @see qinetic.business.rest.api.services.IBackEndRS#performCall(java.lang.String)
